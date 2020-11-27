@@ -1,0 +1,69 @@
+.photo{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top:-170px;
+	left:450px;
+
+}
+body{
+	 margin: 0px;
+	 position:relative;
+	 width:100%;
+	 top:170px;
+     font-family: "Helvetica Neue", sans-serif;
+
+}
+nav{
+	background-color:yellow;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 2px;
+    overflow: hidden;
+
+}
+nav ul li{
+	float: left;
+	margin-left: 190px;
+}
+nav ul li a{
+	text-decoration: none;
+	color:red;
+	padding: 20px 20px;
+	display: block;
+}
+nav ul li a:hover{
+	background-color: lightblue;
+	color: brown;
+}
+.mlist{
+	position: absolute;
+	background-color: lightpink;
+	color: blue;
+	display: none;
+}
+.mlist a{
+	color:green; 
+	
+
+}
+.product:hover .mlist{
+	display: block;
+}
+.tolly{
+	position: absolute;
+	left: 200px;
+}
+.bolly{
+	position: absolute;
+	left: 900px;
+	top: 120px;
+}
+.holly{
+	position: absolute;
+	left: 550px;
+	top: 300px;
+}
+
